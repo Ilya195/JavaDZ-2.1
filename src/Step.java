@@ -1,12 +1,10 @@
 public class Step {
     public static void main(String[] args) {
-        int x = 100;
-        int y = 20;
-        int mile = 1;
-        int bonus = x / y;
-        {
-            System.out.println("Бонусные мили=" + x / y);
-        }
-
+        int startMoney = 20;
+        int finishMoney = 100;
+        int x = startMoney;
+        int y = finishMoney;
+        int bonusMile = y / x;
+        System.out.println("Бонусные мили=" + y / x);
     }
 }
